@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Message Transfer</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <section>
 
-        <h1>Welche Nachricht möchtet du weitergeben</h1>
-        <textarea rows="4" cols="50" name="comment" form="usrform" id="content"></textarea>
-        <input type="submit" onclick="writeHere()">
-        <h2 id="noComment"></h2>
-        <h3>Lezte Nachricht</h3>
-        <p id="yourComment"></p>
+        <div>
+
+            <h1>Welche Nachricht möchtet<br> du weitergeben</h1>
+            <textarea name="comment" form="usrform" id="content"></textarea><br>
+            <input type="submit" onclick="writeHere()">
+            <h2 id="noComment"></h2>
+            <h2>Lezte Nachricht</h2>
+            <h3 id="yourComment"></h3>
+
+        </div>
+
     </section>
     <script src="assets/js/main.js"></script>
 </body>
